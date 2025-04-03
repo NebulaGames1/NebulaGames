@@ -532,3 +532,19 @@ footer {
         font-size: 1.8rem;
     }
 }
+/* Estilo da logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-image {
+    height: 40px; /* Ajuste conforme necessário */
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-image:hover {
+    transform: scale(1.1);
+}
